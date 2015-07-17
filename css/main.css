@@ -82,13 +82,14 @@ h2 {
 }
 img {
 	margin: 0 auto;
-	width: 215px;
+	width: 100px;
 	border-radius:50%;
 	border: 0px none;
 }
 .name{
 	margin: 0 auto;
-	margin-left: 79px;
+	/*margin-left: 79px;*/
+	text-align: center;
 	letter-spacing: 2px;
 }
 footer {

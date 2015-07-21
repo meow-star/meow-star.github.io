@@ -71,19 +71,19 @@ h2 {
     top: 340px;
 }
 
-.more a {
+/*.more a {
     background: url(./img/arrow.png);
     background-size: 100px;
 }
 
 .more a:hover {
     background: url(./img/arrow_c.png);
-}
+}*/
 
 .member {
     height: 100%;
     background-color: #666666;
-    background: #444 url(http://i0.topit.me/0/43/ac/1188231990d94ac430o.jpg);
+    background: #444 url(../img/bg_3.jpg);
     background-size: 100%;
 }
 
@@ -123,7 +123,7 @@ img {
 footer {
     height: 100%;
     background-color: #666666;
-    background: #444 url(http://g.hiphotos.baidu.com/zhidao/pic/item/d53f8794a4c27d1e240bd5011ad5ad6edcc438c2.jpg);
+    background: url(../img/bg_2.jpg);
     background-size: 100%;
 }
 
@@ -135,7 +135,7 @@ footer {
 }
 
 .big-box {
-    background: #444 url(http://dl.bizhi.sogou.com/images/2012/02/04/94596.png);
+    background: url(http://dl.bizhi.sogou.com/images/2012/02/04/94596.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

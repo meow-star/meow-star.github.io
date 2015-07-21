@@ -1,112 +1,168 @@
-nav {
-	margin: 0px;
-	height: 50px;
-	width: 100%;
-	background-color: transparent;
-	position:fixed;
-
-
-}
-nav ul {
-	margin: 0;
-	list-style: none;
-}
-nav ul li {
-	display: inline-block;
-}
-nav ul li a {
-	text-decoration: none;
-	display: inline-block;
-	margin: auto 10px;
-	line-height: 50px;
-	color: #fff;
-}
 header {
-	background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.57);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+selection {
+    background-color: #FF3E3E;
+}
+
+a::selection {
+    background-color: #FF3E3E;
+}
+
+::-moz-selection {
+    background: #FF3E3E;
+}
+
+a::-moz-selection {
+    background-color: #FF3E3E;
+}
+::-webkit-selection{
+    background: #FF3E3E;
+}
+
+a::-webkit-selection {
+    background-color: #FF3E3E;
 }
 .logo {
-	float: left;
+    float: left;
 }
-.nav-right {
-	float: right;
-}
+
 .banner {
-	height: 720px;
-	background-color: transparent;
-	text-align: center;
-	color: #fff;
+    height: 720px;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
 }
+
 h2 {
-	margin: 0 auto;
+    margin: 20 auto;
+    letter-spacing: 20px;
 }
+
 .meowstar {
-	width: 30%;
-	margin: 0 auto;
-	position: relative;
-	top: 200px;
-	letter-spacing: 2px;
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    letter-spacing: 2px;
 }
+
 .meowstar p {
-	padding: 40px;
-	line-height: 27px;
-
+    padding: 40px;
+    line-height: 31px;
+    width: 331px;
 }
+
 .meowstar .hr {
-	margin: 0;
-	height: 2px;
-	background-color: #fff;
+    margin: 0;
+    height: 4px;
+    background-color: #fff;
 }
+
 .more {
-	margin: 0 auto;
-	position: relative;
-	top: 340px;
+    margin: 0 auto;
+    position: relative;
+    top: 340px;
 }
-.content .member {
-	height: 380px;
-	background-color: #666666;
 
+.more a {
+    background: url(./img/arrow.png);
+    background-size: 100px;
 }
+
+.more a:hover {
+    background: url(./img/arrow_c.png);
+}
+
+.member {
+    height: 100%;
+    background-color: #666666;
+    background: #444 url(http://i0.topit.me/0/43/ac/1188231990d94ac430o.jpg);
+    background-size: 100%;
+}
+
 .member h2 {
-	text-align: center;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    top: 84px;
+    letter-spacing: 20px;
 }
-.img-wrapper {
-	margin: 0 auto;
-	position: relative;
-	top: 50px;
-}
-.member span {
-		display: inline-block;
-		margin: 0 auto;
-		margin-left: 45px;
 
+.img-wrapper {
+    margin: 0px auto;
+    top: 100px;
+    position: relative;
+    padding: 83px;
 }
+
+.member span {
+    display: inline-block;
+    margin: 0px auto 0px 20px;
+}
+
 img {
-	margin: 0 auto;
-	width: 100px;
-	border-radius:50%;
-	border: 0px none;
+    margin: 0 auto;
+    width: 215px;
+    border-radius: 50%;
+    border: 0px none;
 }
-.name{
-	margin: 0 auto;
-	/*margin-left: 79px;*/
-	text-align: center;
-	letter-spacing: 2px;
+
+.name {
+    margin: 12px auto 0px 87px;
+    letter-spacing: 6px;
+    color: #FFF;
 }
+
 footer {
-	background: #333;
-	height: 100px;
+    height: 100%;
+    background-color: #666666;
+    background: #444 url(http://g.hiphotos.baidu.com/zhidao/pic/item/d53f8794a4c27d1e240bd5011ad5ad6edcc438c2.jpg);
+    background-size: 100%;
 }
+
 .copy {
-	position: relative;
-	top: 40px;
-	text-align: center;
-	padding-bottom: 20px; 
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    top: 624px;
 }
+
 .big-box {
-	background: #444 url(http://dl.bizhi.sogou.com/images/2012/02/04/94596.png);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center; 
-	color: #fff;
+    background: #444 url(http://dl.bizhi.sogou.com/images/2012/02/04/94596.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0px;
+}
+
+#part1 {
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    background: #444 url("http://dl.bizhi.sogou.com/images/2012/02/04/94596.png") no-repeat fixed center center / cover;
+    color: #FFF;
+}
+
+.title {
+    width: 400px;
+    margin: 0px auto;
+}
+
+.title .hr {
+    margin: 0px;
+    height: 4px;
+    background-color: #FFF;
+    position: relative;
+    top: 86px;
 }
